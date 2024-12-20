@@ -2,7 +2,7 @@
 //using System.Runtime.CompilerServices;
 
 namespace MLP {
-    class tInfo {
+    class tData {
         private static double [] c;
         //private static double [][] c;
         private int [] rnd;
@@ -26,7 +26,7 @@ namespace MLP {
             return dimension * i + j;
         }
 
-        public tInfo(int dimen, double [][] cost, int [] rnd_arr) {
+        public tData(int dimen, double [][] cost, int [] rnd_arr) {
             rnd = rnd_arr;
             rnd_index = 0;
             dimension = dimen;

@@ -2,12 +2,12 @@ using System;
 using static System.IO.File;
 
 namespace MLP {
-    class Data {
+    class DataReader {
         private int dimension;
         private double [,] matrix;
         private int [] rnd;
 
-        public Data(){
+        public DataReader(){
             dimension = 0;
         }
 
